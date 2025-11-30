@@ -27,40 +27,7 @@ Welcome to React Native build of the **Enigma Machine**! Currently, only the M3 
 - **Combine the downloaded folders into one.**
 - **Change `app.json` and `eas.json` as needed.**
 
-
----
-<details> <summary>
-
-### **For starters**
-</summary>
-
-```bash
-cd <Project>
-npm install -g expo-cli eas-cli
-npm install
-expo-cli start --tunnel
-```
-
-- Replace `<Project>` with your project's directory name.
-- Install `Expo` and `EAS` if not already for making the build.
-- `expo start --tunnel` lets you access the app.
 </details>
-
-
----
-<details> <summary>
-
-### **For production**
-</summary>
-
-```bash
-eas build --platform [android, ios, all]
-```
-
-- Replace `[android, ios, all]` with the platform(s) of choice.
-- Consult the [EAS Build Documentation](https://docs.expo.dev/build/introduction/) for more details on configuring production builds.
-</details> </details>
-
 
 ---
 <details> <summary>
